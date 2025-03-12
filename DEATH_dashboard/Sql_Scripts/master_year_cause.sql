@@ -1,0 +1,243 @@
+SELECT * FROM death_data;
+
+SELECT 
+    YEARS, 
+    'MENINGITIS_DEATHS' AS death_cause, SUM(MENINGITIS_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'DEMENTIA_DEATHS' AS death_cause, SUM(DEMENTIA_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'PARKINSONS_DEATHS' AS death_cause, SUM(PARKINSONS_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'MALARIA_DEATHS' AS death_cause, SUM(MALARIA_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'DROWNING_DEATHS' AS death_cause, SUM(DROWNING_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'HIV_AIDS_DEATHS' AS death_cause, SUM(HIV_AIDS_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'DRUGS_DEATHS' AS death_cause, SUM(DRUGS_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'TUBERCULOSIS_DEATHS' AS death_cause, SUM(TUBERCULOSIS_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'CARDIOVASCULAR_DEATHS' AS death_cause, SUM(CARDIOVASCULAR_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'RESPIRATORY_DEATHS' AS death_cause, SUM(RESPIRATORY_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'NEONATAL_DISORDER_DEATHS' AS death_cause, SUM(NEONATAL_DISORDER_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'ALCOHOL_DEATHS' AS death_cause, SUM(ALCOHOL_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'DIARRHEAL_DEATHS' AS death_cause, SUM(DIARRHEAL_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'NEOPLASM_DEATHS' AS death_cause, SUM(NEOPLASM_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'CONFLICT_DEATHS' AS death_cause, SUM(CONFLICT_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'DIABETES_DEATHS' AS death_cause, SUM(DIABETES_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'KIDNEY_DEATHS' AS death_cause, SUM(KIDNEY_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'POISONING_DEATHS' AS death_cause, SUM(POISONING_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'ROAD_DEATHS' AS death_cause, SUM(ROAD_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'LIVER_DEATHS' AS death_cause, SUM(LIVER_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'DIGESTIVE_DISEASE_DEATHS' AS death_cause, SUM(DIGESTIVE_DISEASE_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'FIRE_DEATHS' AS death_cause, SUM(FIRE_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'ACUTE_HEPATITIS_DEATHS' AS death_cause, SUM(ACUTE_HEPATITIS_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS
+
+UNION ALL
+
+SELECT 
+    YEARS, 
+    'MEASLES_DEATHS' AS death_cause, SUM(MEASLES_DEATHS) AS total_deaths
+FROM 
+    DEATH_DATA 
+GROUP BY 
+    YEARS;
+
+
+
+
